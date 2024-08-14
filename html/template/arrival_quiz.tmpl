@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" >
+	<meta name="viewport" content="width=device-width">
+  <script src="js/jquery-3.6.4.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/audio.min.js"></script>
+  <script>
+  audiojs.events.ready(function() {
+	var as = audiojs.createAll();
+	});
+  </script>
+  
+  <script src="js/js-webshim/minified/polyfiller.js"></script>
+  <script> 
+   webshim.activeLang('en');
+   webshims.polyfill('forms');
+   webshims.cfg.no$Switch = true;
+  </script> 
+  <script src="js/howler.min.js"></script>
+  <script src="js/app.js"></script>
+  <title>とりトレ</title>
+  <link rel="stylesheet"   href="css/import.css"> 
+</head>
+
+<body id="arrivalQuiz">
+  <form method="post" action="index.html">
+  <header class="site-header">
+    <nav>
+      <ul class="gnav__menu">
+    	<li class="gnav__menu__item"><a href="index.html">とりトレ</a></li>
+        <tmpl_if name = "login">
+    	  <li class="gnav__menu__item">Username: <tmpl_var name = user> さん　
+    	  
+    	  <input type="submit" value="ログアウト" class="btn" >
+    	</tmpl_if>
+        </form></li>
+        <li class="gnav__menu__item">
+    	  <a href="guide.html" target="_blank">とりトレの使い方</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <form method="post" action="<tmpl_var name = next_url>" >
+
+  <h1>到達度テスト　<tmpl_var name = count_quiz>問目/<tmpl_var name = question>問</h1>
+  
+  <div id="container">
+    <div id="itemM">
+      <div class="float-clear">
+        <p class="font150" style="display:inline;">この鳴き声の鳥は次のうちどれ？</p>
+        <!-- <audio src='<tmpl_var name = mp3_for_test >' autoplay></audio> -->
+
+        <button class="btn-play" id="<tmpl_var name = mp3_for_test>" type="button"><i class="fas fa-play"></i></button>
+        <!--<button class="btn-play" id="<tmpl_var name = mp3_file_base_name>" type="button"><i class="fas fa-play"></i></button>-->
+
+        <ul class="choices2"><tmpl_var name = choices_jp_form ></ul>
+      </div><!--float-clear Turn around and stop here -->
+    
+      <input type="hidden" name='user' value="<tmpl_var name = user>" >        
+      <input type="hidden" name="correct_answer" value="<tmpl_var name = correct_answer>" >
+      <input type="hidden" name="users_answer" value="<tmpl_var name = users_answer>" >
+      <input type="hidden" name="mp3_for_test" value="<tmpl_var name = mp3_for_test>" >
+      <input type="hidden" name="question" value="<tmpl_var name = question>" >
+      <tmpl_var name = sp_choices_mp3_all>
+
+      <div class="answer"> 
+        <input type="submit" id="mySubmit" value="<tmpl_var name = next_content>" class="next"></form>
+      
+        <form method="post" action="sound.cgi" >
+        <input type="hidden" name='user' value="<tmpl_var name = user>" >
+        <input type="hidden" name='content_info' value="腕試し" >
+        <input type="hidden" name='content_url' value="test.cgi" >
+        </form>
+      
+      </div>
+    </div><!--M-->
+  
+    <div id="itemN">
+    </div>
+    <div id="itemO">
+    </div>
+    <div id="itemP">
+    </div>
+　　
+  </div><!-- container -->
+  
+  <div class="footer-inner">
+	<div id="footerNies">
+		<a class="image_link" href="http://www.nies.go.jp/fukushima/" target="_blank"><img
+				src="icon/niesfukushima_logo_JP_1_color.png" width="270" height="65" title="fukushima_logo"
+				alt="fukushima_logo"></a>
+		<a class="image_link" href="http://www.nies.go.jp/biology/" target="_blank"><img src="icon/BioDiv_logo.png"
+				width="270" height="65" title="BioDiv_logo" alt="BioDiv_logo"></a>
+	</div>
+	<div id="footerLink">
+		<a href="sitepolicy.html">とりトレの利用規約</a>
+		<a href="http://www.nies.go.jp/sitepolicy.html" target="_blank">著作権・リンクについて</a>
+		<a href="http://www.nies.go.jp/kojinjoho/privacypolicy.html" target="_blank">プライバシーポリシー</a>
+	</div>
+	<p id="copyright">© 2024 National Institute for Environmental Studies</p>
+</div>
+</body>
+</html>

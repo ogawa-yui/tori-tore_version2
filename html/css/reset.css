@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*****************************************
+              Reset Style
+*****************************************/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
+form, fieldset, legend, input, textarea, p, blockquote, th, td {
+	padding: 0;
+	margin: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-size: 100%;
+	font-weight: inherit;
+}
+fieldset, img, iframe {
+	border: 0;
+}
+img {
+	vertical-align: top;
+}
+address, caption, cite, code, dfn, var {
+	font-weight: normal;
+	font-style: normal;
+}
+ul, dl, ol { 
+	text-indent: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-size: 100%;
+}
+abbr, acronym {
+	border: 0;
+}
+input, textarea {
+	font-size: 100%;
+}

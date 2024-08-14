@@ -1,0 +1,428 @@
+@charset "utf-8";
+
+@media screen and (max-width: 1260px) {
+	/* Overall settings */
+	h1 {
+		padding: 0 0 2.5vw;
+	}
+	h1 span:nth-of-type(1) {
+		margin: 0 0 0 1em;
+	}
+	h1 span:nth-of-type(2) {
+		display: block;
+	}
+	/* body */
+	body {
+		width: 100%;
+		box-sizing: border-box;
+		margin: 0;
+		padding-top: 2.5vw;
+	}
+	/* gnav */
+	.gnav__menu {
+		/*display: block;*/
+		padding: 0 1em;
+	}
+	.gnav__menu__item {
+		font-size: 125%;
+		margin: 0 20px 5px 0;
+	}
+	/* footer */
+	.footer-inner {
+		display: block;
+	}
+	#footerNies {
+		width: 100%;
+		margin: 0 0 20px 0;
+		text-align: center;
+	}
+	#footerLink {
+		width: 100%;
+		margin: 0 0 20px 0;
+		justify-content: center;
+	}
+	/* top */
+	#topImg {
+		width: 100%;
+		height: auto;
+	}
+	/* guide */
+	#container_vertically_long .guide img {
+		width: 100%;
+		max-width: 660px;
+		height: auto;
+	}
+	/* login */
+	#container_vertically_long .login {
+		margin: 10px 0 0 0;
+	}
+	#container_vertically_long .login .next {
+		margin: 20px 0 0 0;
+	}
+	#container_vertically_long .loginBtn {
+		margin: 15px 0 0 0;
+	}
+	/* user regist */
+	#container_vertically_long .userRegist .btn {
+		width: 150px;
+	}
+	/* arrival_quiz */
+	#container {
+		display: block;
+	}
+	/*Quiz training*/
+	/*#itemB,
+	#itemC,
+	#itemD,
+	#itemE,
+	#itemG {
+		padding: 20px;
+	}
+	#itemD p  {
+		width: 370px;
+	}
+	#itemDInner p.vertical {
+		width: auto;
+	}
+	#itemG {
+		margin: -17px 0 0 0;
+		padding: 40px 20px 5px 20px;
+	}
+	#itemG p.form {
+		text-align: left;
+	}
+	#itemH {
+		margin: -17px 0 0 0;
+		padding: 5px 20px 20px 20px;
+	}*/
+	#guizTraining #itemB,
+	#guizTraining #itemC,
+	#guizTraining #itemD,
+	#guizTraining #itemE,
+	#guizTraining #itemF,
+	#guizTraining #itemG,
+	#guizTraining #itemH,
+	#guizTraining #itemI,
+	#guizTraining #itemJ,
+	#guizTraining #itemP {
+		display: none;
+	}
+	/*quiz_training_answer*/
+	#qtAnswer #container {
+		display: grid;
+		grid-template-columns: 0vw 44vw 24vw 13vw 17vw 0vw;
+	}
+	/*spectrogram*/
+	#itemM #soundImg .flexImg img {
+		width: calc(100% - 1.6rem);
+	}
+	#itemM #soundImg p.btmText {
+		width: 100%;
+	}
+	#qtAnswer #itemA table td {
+		padding: 0 0.625vw 0 0;
+	}
+	#qtAnswer #itemA table td:nth-of-type(2) {
+		min-width: 10vw;
+	}
+	#qtAnswer #itemA table td:nth-of-type(4) {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	/* Overall settings */
+	h1 {
+		font-size:125%;
+		padding: 0 0 2.5vw;
+	}
+	.gnav__menu {
+		display: block;
+	}
+	/* body */
+	body {
+		font-size: 106%;
+		/*margin: 100px 0 0 0;*/
+		padding-top: 2.5vw;
+	}
+	/* gnav */
+	.gnav__menu__item {
+		max-height: 3.5em;
+		overflow: auto;
+		padding: 0 10px 0 0;
+	}
+	.gnav__menu {
+		display: block;
+		padding: 0 1%;
+	}
+	.gnav__menu .gnav__menu__item,
+	.gnav__menu a {
+		font-size: 80%;
+	}
+	.gnav__menu .gnav__menu__item {
+		display: inline-block;
+		margin: 0;
+	}
+	.gnav__menu .gnav__menu__item:nth-of-type(2) {
+		font-size: 75%;
+	}
+	/* container */
+	#container_vertically_long {
+		display: block;
+		min-height: auto;
+	}
+	#container_vertically_long #itemM {
+		padding: 15px;
+	}
+	/* form */
+	.next {
+		font-size: 109%;
+	}
+	/* label */
+	.choices input[type="radio"] + label {
+		max-width: 225px;
+	}
+	/*footer*/
+	.footer-inner {
+		padding: 15px;
+	}
+	#footerLink {
+		display: block;
+		margin: 0;
+		text-align: center;
+	}
+	#footerLink a {
+		display: block;
+		margin: 0 0 10px 0;
+	}
+	#copyright {
+		margin: 20px 0 0 0;
+	}
+	/* footer */
+	#footerNies a {
+		margin: 0 0 15px 0!important;
+	}
+	/* login */
+	#container_vertically_long .login input {
+		display: block;
+		width: 100%;
+		margin: 0;
+	}
+	/*Quiz training*/
+	/*#itemA table {
+		width: 100%;
+	}
+	#itemA table tr td {
+		display:block;
+	}
+	#itemA table tr td:nth-of-type(1) {
+		display: inline-block;
+		width:1em;
+		padding: 0;
+	}
+	#itemA table.choices tr td:nth-of-type(1) {
+		width:100%;
+	}
+	#itemA table tr td:nth-of-type(2) {
+		display: inline-block;
+		width:92%;
+		padding: 0;
+	}
+	#itemA table tr td:nth-of-type(4) {
+		padding: 0;
+	}
+	#itemA table tr td:nth-of-type(n+3):nth-of-type(-n+6) {
+		display: inline-block;
+		width:70px;
+	}
+	#itemA table tr td:nth-of-type(4) {
+		display: inline-block;
+		width:10px!important;
+	}*/
+	#itemD p {
+		width: 100%;
+		max-width: 370px;
+		font-size: 1.8vw;
+	}
+	#itemD #itemDInner p {
+		width: auto;
+	}
+	#itemDInner img {
+		width: 320px;
+		max-width: calc(100% - 1rem);
+		height: auto;
+	}
+	/*itemM*/
+	#itemM .table-wrap {
+		/*overflow-x: scroll;*/
+	}
+	#itemM table.A {
+		width: 100%;
+		/*min-width: 600px;*/
+		border-collapse: collapse;
+		table-layout: fixed;
+		word-break: break-all;
+		word-wrap: break-all;
+		font-size: 70%;
+	}
+	#itemM .A th, #itemM .A td {
+		padding: 3px;
+	}
+	#itemM table.A th:first-of-type,
+	#itemM table.A td:first-of-type {
+		/*width: 100px;*/
+	}
+	#itemM table.A .btn-play {
+		width: 10vw;
+		height: 10vw;
+		margin: 0 auto;
+	}
+	#itemM table.A .btn-play .fas {
+		width: 10vw;
+		height: 10vw;
+		background-size: 10vw auto;
+	}
+	/*count_accuracy*/
+	#countAccuracy #itemM table.A tr th,
+	#countAccuracy #itemM table.A tr td {
+		width: 10%;
+	}
+	#countAccuracy #itemM table.A tr th:nth-of-type(2),
+	#countAccuracy #itemM table.A tr td:nth-of-type(2) {
+		width: 13%;
+	}
+	#countAccuracy #itemM table.A tr th:first-of-type,
+	#countAccuracy #itemM table.A tr td:first-of-type,
+	#countAccuracy #itemM table.A tr th:last-of-type,
+	#countAccuracy #itemM table.A tr td:last-of-type {
+		width: 20%;
+	}
+	/*arriival quiz answer*/
+	#arriivalQuizAnswer #itemM table.A tr th,
+	#arriivalQuizAnswer #itemM table.A tr td {
+		width: 10%;
+	}
+	#arriivalQuizAnswer #itemM table.A tr th:nth-of-type(3),
+	#arriivalQuizAnswer #itemM table.A tr td:nth-of-type(3),
+	#arriivalQuizAnswer #itemM table.A tr th:nth-of-type(4),
+	#arriivalQuizAnswer #itemM table.A tr td:nth-of-type(4) {
+		width: 20%;
+	}
+	#arriivalQuizAnswer #itemM table.A tr th:last-of-type,
+	#arriivalQuizAnswer #itemM table.A tr td:last-of-type {
+		width: 12%;
+	}
+	/*quiz_training_answer*/
+	#qtAnswer #container {
+		display: block;
+		position: relative;
+	}
+	#qtAnswer > #container > div {
+		padding: 10px;
+		box-sizing: border-box;
+	}
+	#qtAnswer #itemH {
+		position: absolute;
+		top: 23px;
+		right: 20px;
+		padding: 0!important;
+	}
+	#qtAnswer #itemH form {
+		margin: 0;
+	}
+	#qtAnswer #itemD {
+		text-align: center;
+		font-size: 70%;
+	}
+	#qtAnswer #itemA table td {
+		font-size: 120%;
+	}
+	#qtAnswer #itemA table td:nth-of-type(4) {
+		display: none;
+	}
+	#qtAnswer .vertical img {
+		width: 80vw;
+		height: auto;
+	}
+	#qtAnswer .btn-play {
+		width: 10vw;
+		height: 10vw;
+	}
+	#qtAnswer .btn-play .fa-play,
+	#qtAnswer .btn-play .fa-pause {
+		background-size: 10vw auto;
+	}
+	#qtAnswer .btn-play .fas {
+		width: 10vw;
+		height: 10vw;
+	}
+	#qtAnswer td > a.image_link {
+		width: 15vw;
+		height: 8vw;
+	}
+	#qtAnswer td > a.image_link img {
+		width: 15vw;
+		height: auto;
+	}
+	/*#qtAnswer #BtopLayout {
+		position: relative;
+		padding: 0!important;
+	}*/
+	#qtAnswer #itemB {
+		padding: 10px!important;
+	}
+	/*#qtAnswer #itemE p:first-of-type {
+		position: absolute;
+		margin-left: 1%;
+		top: 0;
+		left: 50vw;
+	}*/
+	#qtAnswer #itemE p .btn-play {
+		width: 15vw!important;
+		height: 15vw!important;
+	}
+	#qtAnswer #itemE .btn-play .fas {
+		background-size: 15vw auto;
+		width: 15vw!important;
+		height: 15vw!important;
+	}
+	#qtAnswer #itemC {
+		padding: 10px!important;
+	}
+	#qtAnswer #itemP img {
+		width: 13vw!important;
+		height: 13vw!important;
+	}
+	/*spectrogram*/
+	#itemM audio {
+		max-width: 100%;
+	}
+	#itemM #soundImg p {
+		font-size: 2.5vw;
+	}
+	#itemM #soundImg .flexImg img {
+		width: calc(100% - 4.5vw);
+	}
+	/*arrival quiz*/
+	#arrivalQuiz #container {
+		font-size: 80%;
+	}
+	#arrivalQuiz label {
+		font-size: 100%;
+	}
+	#arrivalQuiz .choices2 li {
+		margin-right: 0.5em;
+	}
+	#arrivalQuiz #itemM {
+		padding: 4vw;
+	}
+}
+@media screen and (max-width: 380px) {
+	h1 span:nth-of-type(1) {
+		margin: 0 0 0 1em;
+	}
+	h1 span:nth-of-type(2) {
+		display: inline;
+		margin: 0 0 0 1em;
+	}
+}

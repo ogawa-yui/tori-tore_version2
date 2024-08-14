@@ -1,0 +1,80 @@
+SSN	Japanese name	Alphabet of Japanese name	Link for Saezuri navi	Link for BIRD FAN	Lisence	To be loaded	Frequency
+1	アオゲラ	aogera	https://db3.bird-research.jp/saezuri/birdsong/detail/54	https://www.birdfan.net/pg/kind/ord16/fam1600/spe160001/	by Cory - CC BY-SA 3.0	1	11.18981019
+2	アオサギ	aosagi	https://db3.bird-research.jp/saezuri/birdsong/detail/8	https://www.birdfan.net/pg/kind/ord04/fam0400/spe040017/	by Akio Takenaka - CC BY 4.0	0	
+3	アオジ	aoji	https://db3.bird-research.jp/saezuri/birdsong/detail/127	https://www.birdfan.net/pg/kind/ord17/fam1723/spe172316/	by Akio Takenaka - CC BY 4.0	0	
+4	アオバト	aobato	https://db3.bird-research.jp/saezuri/birdsong/detail/40	https://www.birdfan.net/pg/kind/ord10/fam1001/spe100109/	by Atsushi Haga - CC BY-NC 4.0	0	
+5	アカゲラ	akagera	https://db3.bird-research.jp/saezuri/birdsong/detail/56	https://www.birdfan.net/pg/kind/ord16/fam1600/spe160006/	by Keita Fukasawa - CC BY 4.0	0	
+6	アカショウビン	akashobin	https://db3.bird-research.jp/saezuri/birdsong/detail/51	https://www.birdfan.net/pg/kind/ord15/fam1500/spe150002/	by Atsushi Haga - CC BY-NC 4.0	0	
+7	アカハラ	akahara	https://db3.bird-research.jp/saezuri/birdsong/detail/86	https://www.birdfan.net/pg/kind/ord17/fam1711/spe171127/	by Atsushi Haga - CC BY-NC 4.0	0	
+8	アマツバメ	amatsubame	https://db3.bird-research.jp/saezuri/birdsong/detail/165	https://www.birdfan.net/pg/kind/ord14/fam1400/spe140002/	by Robert Pudwill - CC BY-SA 3.0	0	
+9	イカル	ikaru	https://db3.bird-research.jp/saezuri/birdsong/detail/136	https://www.birdfan.net/pg/kind/ord17/fam1724/spe172417/	by Akio Takenaka - CC BY 4.0	0	
+10	イソヒヨドリ	isohiyodori	https://db3.bird-research.jp/saezuri/birdsong/detail/81	https://www.birdfan.net/pg/kind/ord17/fam1711/spe171118/	by Atsushi Haga - CC BY-NC 4.0	0	
+11	イワツバメ	iwatsubame	https://db3.bird-research.jp/saezuri/birdsong/detail/62	https://www.birdfan.net/pg/kind/ord17/fam1702/spe170205/	by Atsushi Haga - CC BY-NC 4.0	0	
+12	ウグイス	uguisu	https://db3.bird-research.jp/saezuri/birdsong/detail/91	https://www.birdfan.net/pg/kind/ord17/fam1713/spe171301/	by Keita Fukasawa - CC BY 4.0	1	7.804195804
+13	ウソ	uso	https://db3.bird-research.jp/saezuri/birdsong/detail/135	https://www.birdfan.net/pg/kind/ord17/fam1724/spe172415/	by Atsushi Haga - CC BY-NC 4.0	0	
+14	エゾムシクイ	ezomushikui	https://db3.bird-research.jp/saezuri/birdsong/detail/101	https://www.birdfan.net/pg/kind/ord17/fam1713/spe171321/	by NoName - Public domain	0	
+15	エナガ	enaga	https://db3.bird-research.jp/saezuri/birdsong/detail/110	https://www.birdfan.net/pg/kind/ord17/fam1716/spe171600/	by Atsushi Haga - CC BY-NC 4.0	0	
+16	オオタカ	ootaka	https://db3.bird-research.jp/saezuri/birdsong/detail/12	https://www.birdfan.net/pg/kind/ord06/fam0600/spe060005/	"by Norbert Kenntner, Berlin - CC BY-SA 3.0"	0	
+17	オオムシクイ	oomushikui	https://db3.bird-research.jp/saezuri/birdsong/detail/569	https://www.birdfan.net/pg/kind/ord17/fam1713/spe171328/	by Corinna John - CC BY-NC-SA 2.0	0	
+18	オオヨシキリ	ooyoshikiri	https://db3.bird-research.jp/saezuri/birdsong/detail/99	https://www.birdfan.net/pg/kind/ord17/fam1713/spe171310/	by Atsushi Haga - CC BY-NC 4.0	1	13.41058941
+19	オオルリ	ooruri	https://db3.bird-research.jp/saezuri/birdsong/detail/105	https://www.birdfan.net/pg/kind/ord17/fam1714/spe171405/	by Atsushi Haga - CC BY-NC 4.0	0	
+20	オシドリ	oshidori	https://db3.bird-research.jp/saezuri/birdsong/detail/238	https://www.birdfan.net/pg/kind/ord05/fam0500/spe050018/	by Akio Takenaka - CC BY 4.0	0	
+21	オナガ	onaga	https://db3.bird-research.jp/saezuri/birdsong/detail/143	https://www.birdfan.net/pg/kind/ord17/fam1732/spe173202/	by Atsushi Haga - CC BY-NC 4.0	0	
+22	カケス	kakesu	https://db3.bird-research.jp/saezuri/birdsong/detail/142	https://www.birdfan.net/pg/kind/ord17/fam1732/spe173200/	by NoName - CC SA 1.0	0	
+23	カッコウ	kakko	https://db3.bird-research.jp/saezuri/birdsong/detail/42	https://www.birdfan.net/pg/kind/ord11/fam1100/spe110002/	by Tim Peukert - CC BY-SA 3.0	1	3.01998002
+24	ガビチョウ	gabicho	https://db3.bird-research.jp/saezuri/birdsong/detail/150	https://www.birdfan.net/pg/kind/ord18/gabicho/	by Charles Lam - CC BY-SA 2.0	1	4.230769231
+25	カルガモ	karugamo	https://db3.bird-research.jp/saezuri/birdsong/detail/246	https://www.birdfan.net/pg/kind/ord05/fam0500/spe050020/	by Atsushi Haga - CC BY-NC 4.0	0	
+26	カワガラス	kawagarasu	https://db3.bird-research.jp/saezuri/birdsong/detail/178	https://www.birdfan.net/pg/kind/ord17/fam1708/spe170800/	by Akio Takenaka - CC BY 4.0	0	
+27	カワセミ	kawasemi	https://db3.bird-research.jp/saezuri/birdsong/detail/52	https://www.birdfan.net/pg/kind/ord15/fam1500/spe150006/	by Keita Fukasawa - CC BY 4.0	0	
+28	カワラヒワ	kawarahiwa	https://db3.bird-research.jp/saezuri/birdsong/detail/130	https://www.birdfan.net/pg/kind/ord17/fam1724/spe172402/	by Atsushi Haga - CC BY-NC 4.0	1	13.26973027
+29	キジ	kiji	https://db3.bird-research.jp/saezuri/birdsong/detail/22	https://www.birdfan.net/pg/kind/ord07/fam0701/spe070103/	by Akio Takenaka - CC BY 4.0	1	7.381618382
+30	キジバト	kijibato	https://db3.bird-research.jp/saezuri/birdsong/detail/39	https://www.birdfan.net/pg/kind/ord10/fam1001/spe100107/	by Atsushi Haga - CC BY-NC 4.0	1	6.304695305
+31	キセキレイ	kisekirei	https://db3.bird-research.jp/saezuri/birdsong/detail/64	https://www.birdfan.net/pg/kind/ord17/fam1703/spe170303/	by Akio Takenaka - CC BY 4.0	1	8.288711289
+32	キビタキ	kibitaki	https://db3.bird-research.jp/saezuri/birdsong/detail/104	https://www.birdfan.net/pg/kind/ord17/fam1714/spe171402/	by Atsushi Haga - CC BY-NC 4.0	1	1.335664336
+33	クロツグミ	kurotsugumi	https://db3.bird-research.jp/saezuri/birdsong/detail/85	https://www.birdfan.net/pg/kind/ord17/fam1711/spe171125/	by Atsushi Haga - CC BY-NC 4.0	0	
+34	ゴイサギ	goisagi	https://db3.bird-research.jp/saezuri/birdsong/detail/6	https://www.birdfan.net/pg/kind/ord04/fam0400/spe040007/	by Akio Takenaka - CC BY 4.0	0	
+35	コガラ	kogara	https://db3.bird-research.jp/saezuri/birdsong/detail/112	https://www.birdfan.net/pg/kind/ord17/fam1718/spe171801/	by NoName - CC0	0	
+36	コゲラ	kogera	https://db3.bird-research.jp/saezuri/birdsong/detail/58	https://www.birdfan.net/pg/kind/ord16/fam1600/spe160009/	by Akio Takenaka - CC BY 4.0	1	10.11688312
+37	コサメビタキ	kosamebitaki	https://db3.bird-research.jp/saezuri/birdsong/detail/107	https://www.birdfan.net/pg/kind/ord17/fam1714/spe171408/	by Flickr User Charles Lam - CC BY-SA 2.0	0	
+38	ゴジュウカラ	gojukara	https://db3.bird-research.jp/saezuri/birdsong/detail/116	https://www.birdfan.net/pg/kind/ord17/fam1719/spe171900/	by Keita Fukasawa - CC BY 4.0	0	
+39	コジュケイ	kojukei	https://db3.bird-research.jp/saezuri/birdsong/detail/147	https://www.birdfan.net/pg/kind/ord18/kojukei/	"by I, KENPEI - CC BY-SA 3.0"	0	
+40	コチドリ	kochidori	https://db3.bird-research.jp/saezuri/birdsong/detail/30	https://www.birdfan.net/pg/kind/ord09/fam0903/spe090301/	by Keita Fukasawa - CC BY 4.0	0	
+41	サシバ	sashiba	https://db3.bird-research.jp/saezuri/birdsong/detail/15	https://www.birdfan.net/pg/kind/ord06/fam0600/spe060012/	by Atsushi Haga - CC BY-NC 4.0	0	
+42	サンコウチョウ	sankocho	https://db3.bird-research.jp/saezuri/birdsong/detail/109	https://www.birdfan.net/pg/kind/ord17/fam1715/spe171500/	by Akio Takenaka - CC BY 4.0	0	
+43	サンショウクイ	sanshokui	https://db3.bird-research.jp/saezuri/birdsong/detail/69	https://www.birdfan.net/pg/kind/ord17/fam1704/spe170401/	by Atsushi Haga - CC BY-NC 4.0	0	
+44	シジュウカラ	shijukara	https://db3.bird-research.jp/saezuri/birdsong/detail/115	https://www.birdfan.net/pg/kind/ord17/fam1718/spe171805/	by Atsushi Haga - CC BY-NC 4.0	1	6.407592408
+45	シメ	shime	https://db3.bird-research.jp/saezuri/birdsong/detail/137	https://www.birdfan.net/pg/kind/ord17/fam1724/spe172418/	by Atsushi Haga - CC BY-NC 4.0	0	
+46	ジュウイチ	juichi	https://db3.bird-research.jp/saezuri/birdsong/detail/41	https://www.birdfan.net/pg/kind/ord11/fam1100/spe110000/	by Flickr user NatureAtYourBackyard - CC BY 2.0	0	
+47	スズメ	suzume	https://db3.bird-research.jp/saezuri/birdsong/detail/139	https://www.birdfan.net/pg/kind/ord17/fam1727/spe172702/	by Akio Takenaka - CC BY 4.0	1	16.2047952
+48	セグロセキレイ	segurosekirei	https://db3.bird-research.jp/saezuri/birdsong/detail/66	https://www.birdfan.net/pg/kind/ord17/fam1703/spe170305/	by Atsushi Haga - CC BY-NC 4.0	1	0.460539461
+49	セッカ	sekka	https://db3.bird-research.jp/saezuri/birdsong/detail/96	https://www.birdfan.net/pg/kind/ord17/fam1713/spe171326/	by Atsushi Haga - CC BY-NC 4.0	0	
+50	センダイムシクイ	sendaimushikui	https://db3.bird-research.jp/saezuri/birdsong/detail/102	https://www.birdfan.net/pg/kind/ord17/fam1713/spe171322/	by NoName - Public domain	0	
+51	ツツドリ	tsutsudori	https://db3.bird-research.jp/saezuri/birdsong/detail/43	https://www.birdfan.net/pg/kind/ord11/fam1100/spe110003/	by Akira Yoshioka - CC BY-NC 4.0	0	
+52	ツバメ	tsubame	https://db3.bird-research.jp/saezuri/birdsong/detail/60	https://www.birdfan.net/pg/kind/ord17/fam1702/spe170202/	by Akio Takenaka - CC BY 4.0	1	13.94505495
+53	ドバト	dobato	https://db3.bird-research.jp/saezuri/birdsong/detail/149	https://www.birdfan.net/pg/kind/ord18/kawarabato/	by Yui Ogawa - CC BY 4.0	0	
+54	トビ	tobi	https://db3.bird-research.jp/saezuri/birdsong/detail/10	https://www.birdfan.net/pg/kind/ord06/fam0600/spe060002/	by Atsushi Haga - CC BY-NC 4.0	0	
+55	トラツグミ	toratsugumi	https://db3.bird-research.jp/saezuri/birdsong/detail/82	https://www.birdfan.net/pg/kind/ord17/fam1711/spe171120/	by Akira Yoshioka - CC BY-NC 4.0	0	
+56	ノゴマ	nogoma	https://db3.bird-research.jp/saezuri/birdsong/detail/76	https://www.birdfan.net/pg/kind/ord17/fam1711/spe171104/	by Robert tdc - CC BY-SA 2.0	0	
+57	ノジコ	nojiko	https://db3.bird-research.jp/saezuri/birdsong/detail/125	https://www.birdfan.net/pg/kind/ord17/fam1723/spe172315/	by Atsushi Haga - CC BY-NC 4.0	0	
+58	ノスリ	nosuri	https://db3.bird-research.jp/saezuri/birdsong/detail/14	https://www.birdfan.net/pg/kind/ord06/fam0600/spe060011/	by Keita Fukasawa - CC BY 4.0	0	
+59	ハクセキレイ	hakusekirei	https://db3.bird-research.jp/saezuri/birdsong/detail/65	https://www.birdfan.net/pg/kind/ord17/fam1703/spe170304/	by Atsushi Haga - CC BY-NC 4.0	1	0.344655345
+60	ハシブトガラス	hashibutogarasu	https://db3.bird-research.jp/saezuri/birdsong/detail/146	https://www.birdfan.net/pg/kind/ord17/fam1732/spe173210/	by Akio Takenaka - CC BY 4.0	1	11.52547453
+61	ハシボソガラス	hashibosogarasu	https://db3.bird-research.jp/saezuri/birdsong/detail/145	https://www.birdfan.net/pg/kind/ord17/fam1732/spe173209/	by Akio Takenaka - CC BY 4.0	1	11.47852148
+62	ハチクマ	hachikuma	https://db3.bird-research.jp/saezuri/birdsong/detail/500	https://www.birdfan.net/pg/kind/ord06/fam0600/spe060001/	by Atsushi Haga - CC BY-NC 4.0	0	
+63	ヒガラ	higara	https://db3.bird-research.jp/saezuri/birdsong/detail/113	https://www.birdfan.net/pg/kind/ord17/fam1718/spe171802/	by Keita Fukasawa - CC BY 4.0	0	
+64	ヒバリ	hibari	https://db3.bird-research.jp/saezuri/birdsong/detail/59	https://www.birdfan.net/pg/kind/ord17/fam1701/spe170104/	by Keita Fukasawa - CC BY 4.0	1	5.387612388
+65	ヒヨドリ	hiyodori	https://db3.bird-research.jp/saezuri/birdsong/detail/70	https://www.birdfan.net/pg/kind/ord17/fam1705/spe170501/	by Akio Takenaka - CC BY 4.0	1	3.096903097
+66	フクロウ	fukuro	https://db3.bird-research.jp/saezuri/birdsong/detail/48	https://www.birdfan.net/pg/kind/ord12/fam1200/spe120010/	by Atsushi Haga - CC BY-NC 4.0	0	
+67	ホオアカ	hooaka	https://db3.bird-research.jp/saezuri/birdsong/detail/122	https://www.birdfan.net/pg/kind/ord17/fam1723/spe172306/	by NoName - Public domain	0	
+68	ホオジロ	hoojiro	https://db3.bird-research.jp/saezuri/birdsong/detail/120	https://www.birdfan.net/pg/kind/ord17/fam1723/spe172302/	by Akio Takenaka - CC BY 4.0	1	2.55044955
+69	ホトトギス	hototogisu	https://db3.bird-research.jp/saezuri/birdsong/detail/44	https://www.birdfan.net/pg/kind/ord11/fam1100/spe110004/	"by Ron Knight from Seaford, East Sussex, United Kingdom - CC BY 2.0"	1	12.84515485
+70	ミソサザイ	misosazai	https://db3.bird-research.jp/saezuri/birdsong/detail/73	https://www.birdfan.net/pg/kind/ord17/fam1709/spe170900/	by Alpsdake - CC BY-SA 3.0	0	
+71	ムクドリ	mukudori	https://db3.bird-research.jp/saezuri/birdsong/detail/141	https://www.birdfan.net/pg/kind/ord17/fam1728/spe172806/	by Akio Takenaka - CC BY 4.0	1	14.2017982
+72	メジロ	mejiro	https://db3.bird-research.jp/saezuri/birdsong/detail/118	https://www.birdfan.net/pg/kind/ord17/fam1721/spe172101/	by Akio Takenaka - CC BY 4.0	1	0.864135864
+73	モズ	mozu	https://db3.bird-research.jp/saezuri/birdsong/detail/71	https://www.birdfan.net/pg/kind/ord17/fam1706/spe170601/	by Akio Takenaka - CC BY 4.0	0	
+74	ヤブサメ	yabusame	https://db3.bird-research.jp/saezuri/birdsong/detail/90	https://www.birdfan.net/pg/kind/ord17/fam1713/spe171300/	by M.Nishimura - CC BY-SA 3.0	1	12.50749251
+75	ヤマガラ	yamagara	https://db3.bird-research.jp/saezuri/birdsong/detail/114	https://www.birdfan.net/pg/kind/ord17/fam1718/spe171803/	by Keita Fukasawa - CC BY 4.0	1	1.827172827
+76	ヤマセミ	yamasemi	https://db3.bird-research.jp/saezuri/birdsong/detail/193	https://www.birdfan.net/pg/kind/ord15/fam1500/spe150000/	by Atsushi Haga - CC BY-NC 4.0	0	
+77	ヤマドリ	yamadori	https://db3.bird-research.jp/saezuri/birdsong/detail/221	https://www.birdfan.net/pg/kind/ord07/fam0701/spe070102/	by NIES Fukushima Terrestrial Ecosystem Monitoring - CC BY 4.0	0	
+78	ヨシゴイ	yoshigoi	https://db3.bird-research.jp/saezuri/birdsong/detail/4	https://www.birdfan.net/pg/kind/ord04/fam0400/spe040001/	by Cp9asngf - CC BY-SA 3.0	0	
+79	ヨタカ	yotaka	https://db3.bird-research.jp/saezuri/birdsong/detail/49	https://www.birdfan.net/pg/kind/ord13/fam1300/spe130000/	by Shyamal - CC BY-SA 3.0	0	

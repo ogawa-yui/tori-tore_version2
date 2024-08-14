@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+/*****************************************
+			Import CSS File
+*****************************************/
+@import "reset.css";
+@import "toritore_style.css";
+/*****************************************
+	   Import Responsive CSS File
+*****************************************/
+@import "responsive.css";

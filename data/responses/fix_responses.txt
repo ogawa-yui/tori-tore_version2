@@ -1,0 +1,1 @@
+Date(YYYY/MM/DD)	Unix time	IP	Browser information	id	group	username	species	frequency	correctness(correct:1, incorrect:-1)

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" >
+<meta name="viewport" content="width=device-width" >
+<title>とりトレ</title>
+<link rel="stylesheet" href="css/import.css" type="text/css" media="all">
+<script src="js/jquery-3.6.4.min.js"></script>
+<script src="js/jquery.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav  class="gnav">
+      <ul class="gnav__menu">
+        <li class="gnav__menu__item"><a href="index.html">とりトレ</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1>ログイン画面</h1> <!-- Title in this page -->
+  <div id="container_vertically_long">
+    <div id="itemM">
+        <form method="post" action="menu.cgi" >
+          <p class="font120_center loginText">ユーザー名、パスワードを以下に入力してください。</p>
+          <p class="login">ユーザー名<input type="text" name="user" size="20" maxlength="15" minlength="5"></p>
+
+          <p class="login">パスワード<input type="password" name="password" size="35" maxlength="30" minlength="8" ></p>
+          <input type="submit" value="ログイン" class="next loginBtn"></form><br><br>
+        <form method="post" action="user_registration.html" >
+          <input type="submit" value="ユーザー登録" class="btn">※履歴が確実に残ります！
+        </form>
+</div>
+  <div id="itemN">
+  </div>
+  <div id="itemO">
+  </div>
+  <div id="itemP">
+  </div>
+</div>
+<div class="footer-inner">
+	<div id="footerNies">
+		<a class="image_link" href="http://www.nies.go.jp/fukushima/" target="_blank"><img src="icon/niesfukushima_logo_JP_1_color.png" width="270" height="65" title="fukushima_logo" alt="fukushima_logo"></a>
+		<a class="image_link" href="http://www.nies.go.jp/biology/" target="_blank"><img src="icon/BioDiv_logo.png" width="270" height="65" title="BioDiv_logo" alt="BioDiv_logo"></a>
+	</div>
+	<div id="footerLink">
+		<a href="sitepolicy.html">とりトレの利用規約</a>
+		<a href="http://www.nies.go.jp/sitepolicy.html" target="_blank">著作権・リンクについて</a>
+		<a href="http://www.nies.go.jp/kojinjoho/privacypolicy.html" target="_blank">プライバシーポリシー</a>
+	</div>
+	<p id="copyright">© 2024 National Institute for Environmental Studies</p>
+</div>
+</body>
+</html>

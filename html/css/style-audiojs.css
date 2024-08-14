@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+
+.audiojs audio {
+}
+ /*Player（Playback Bar）*/
+.audiojs {
+  width: 80px;
+  height: 28px;
+  background: none;
+  overflow: hidden;
+  font-family: monospace;
+  font-size: 12px;  
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;  
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+/*Play and stop buttons*/
+.audiojs .play-pause {
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  margin: 0;
+  float: left;
+  overflow: hidden;
+  border: 1px solid #3A3A3A;
+  border-radius: 14px;
+}
+/*p element for play/stop buttons*/
+.audiojs p {
+  display: none;
+  width: 26px;
+  height: 26px;
+  margin: 0px;
+  cursor: pointer;
+}
+.audiojs .play {
+  display: block;
+}
+/*Area displaying progress and loading status (light gray)*/
+.audiojs .scrubber {
+  position: relative;
+  float: left;
+  width: 40px;
+  background: #5a5a5a;
+  height: 4px;
+  margin: 12px 0 0 0px;
+  border-top: 0;
+  border-left: 0px;
+  border-bottom: 0px;
+  overflow: hidden;
+}
+/*The part of the bar that displays the progress status (slightly darker blue than the playback button)*/
+.audiojs .progress {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 4px;
+  width: 0px;
+  background: #3A3A3A;
+  z-index: 1;  
+/* background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ccc),
+  color-stop(0.5, #ddd), color-stop(0.51, #ccc), color-stop(1, #ccc));  
+  background-image: -moz-linear-gradient(center top, #ccc 0%, #ddd 50%, #ccc 51%, #ccc 
+  100%); */
+}
+/* Bar section displaying loading status (light gray)  */
+.audiojs .loaded {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 4px;
+  width: 0px;
+  background: #DDDDDD;  
+/* background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #222),
+  color-stop(0.5, #333), color-stop(0.51, #222), color-stop(1, #222));
+  background-image: -moz-linear-gradient(center top, #222 0%, #333 50%, #222 51%, #222
+  100%); */
+}
+/*Current playback time/total playback time and font*/
+.audiojs .time {
+  float: left;
+  height: 28px;
+  line-height: 28px;
+  margin: 0px 0px 0px 8px;
+  padding: 0px 0px 0px 0px;
+  border-left: none;
+  color: #666;
+  text-shadow: none;
+  display: none;
+}
+/* Current playback time and font */
+.audiojs .time em {
+  padding: 0px 2px 0px 0px;
+  color: #666;
+  font-style: normal;
+  display: none;
+}
+/*Time*/
+.audiojs .time strong {
+  padding: 0px 0px 0px 2px;
+  font-weight: normal;
+  display: none;
+}
+.audiojs .error-message {
+  float: left;
+  display: none;
+  margin: 0px 10px;
+  height: 26px;
+  width: 200px;
+  overflow: hidden;
+  line-height: 26px;
+  white-space: nowrap;
+  color: #fff;  
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  -icab-text-overflow: ellipsis;
+  -khtml-text-overflow: ellipsis;
+  -moz-text-overflow: ellipsis;
+  -webkit-text-overflow: ellipsis;
+}
+.audiojs .error-message a {
+  color: #eee;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #999;
+  white-space: wrap;
+}
+/* Playback button */
+.audiojs .play {
+  background: url(../img/play-btn1.svg) center center no-repeat;　←playボタン
+  margin-left: 1.45px;
+}
+/* Loading button */
+.audiojs .loading {
+  /*background: url("$1") center center no-repeat;*/
+  display: none;
+}
+/* error button */
+.audiojs .error {
+  /*background: url("$1") center center no-repeat;*/
+  display: none;
+}
+/* Pause button */
+.audiojs .pause {
+  background: url(../img/pause-btn1.svg) center center no-repeat;　←pauseボタン
+}
+.playing .play, .playing .loading, .playing .error {
+  display: none;
+}
+.playing .pause {
+  display: block;
+}
+.loading .play, .loading .pause, .loading .error {
+  display: none;
+}
+.loading .loading {
+  display: block;
+}
+.error .time, .error .play, .error .pause, .error .scrubber, .error .loading {
+  display: none;
+}
+.error .error {
+  display: block;
+}
+.error .play-pause p {
+  cursor: auto;
+}
+.error .error-message {
+  display: block;
+}
+/* Information of playing song */
+.track-details {
+  clear: both;
+  height: 26px;
+  width: 200px;
+  padding: 0px 6px;
+  background: #FFF;
+  color: #3A3A3A;
+  font-size: 10px;
+  line-height: 26px;
+}
+.track-details:before {
+  content: '♬ Now Playing: ';

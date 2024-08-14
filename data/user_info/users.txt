@@ -1,0 +1,1 @@
+Username	Group	Password	Date(YYYY/MM/DD)	Unix time	IP	Browser information

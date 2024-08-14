@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" >
+<meta name="viewport" content="width=device-width" >
+<title>とりトレ</title>
+<link rel="stylesheet" href="css/import.css" type="text/css" media="all">
+<script src="js/jquery-3.6.4.min.js"></script>
+<script src="js/jquery.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <nav>
+    <ul class="gnav__menu">
+      <li class="gnav__menu__item">とりトレ</li>
+      <!--<li class="gnav__menu__item">
+      <a class='image_link' href='http://www.nies.go.jp/' target='_blank'>
+      <img src="icon/logo-a2015 (1).png" width="270" height="65" title="nies_logo" alt="nies_logo"></a>-->
+    </ul>
+  </nav>
+</header>
+<h1>野鳥のこえを学ぶ<span>鳴き声学習ツール</span><span>とりトレ</span></h1>
+<div id="container_vertically_long">
+  <div id="itemM">
+  <div style="text-align: center"><img id="topImg" src="img/DSC_4017.jpg" width="800" height="400" title="top" alt="top"></div>
+  <p>とりトレは、野鳥の鳴き声を<font color="red">クイズ形式でトレーニング</font>しながら覚えるためのツールです。現在、26種の鳴き声を聞くことができます。
+  鳴き声音源の多くは<a href="https://www.bird-research.jp/index.html" target="_blank">NPO法人バードリサーチ</a>に提供していただきました。</p>
+  <p>トレーニングし甲斐のある種の出題頻度を高く設定されていて、トレーニングを続けていくと種の出題頻度が選べるようになります。</p>
+  <p>回答履歴が保存できることから、毎日の継続的なトレーニングが可能です。</p>
+  <a href="about.html">詳しくはこちら</a>
+<form method="post" action="menu.cgi" >
+<script>
+// Remove leading and trailing spaces from a string
+function trim(value){
+  return value.replace(/^\s*|\s*$/g, '');
+}
+// Define a function to get the written cookie value
+function getCookie(name){
+  var data = document.cookie.split(';');
+  for (var i=0; i<data.length; i++){
+    var keyValue = data[i].split('=');
+    if (trim(keyValue[0]) == name){
+      return decodeURIComponent(trim(keyValue[1]))
+    }
+  }
+  return null; // If there is no cookie with that name, returns a null
+}
+var user = getCookie('user'); // Function Calls
+document.write('<input type="hidden" name="user" value="' + user + '" >'); 
+</script>
+<input type="submit" id="mySubmit" value="とりトレに挑戦" class="next">※登録不要！</form>
+<form method="post" action="login.html" >
+<input type="submit" id="mySubmit" value="ログイン" class="next">※登録済の方はこちら</form>
+
+<h3>【Information】</h3>
+<p>2023年9月6日　スマホで利用しやすいようデザインを修正しました。</p>
+<p>2023年6月21日　ユーザー登録機能、鳥の鳴き声解説追加、到達度テストのランダム出題機能の追加、利用規約の更新　を行いました。</p>
+<p>2023年3月1日　ウェブサイトをオープンしました。</p>
+
+<h3>【推奨ブラウザ等】</h3>
+<p>Google chromeを推奨していますが、Microsoft Edge、Mozilla Firefoxでも行うことができます。<br>
+OSはWindows、Mac OSを推奨しています。</p>
+<h3>【Profile】</h3>
+<address>
+国立研究開発法人国立環境研究所<br>
+福島地域協働研究拠点/生物多様性領域<br>
+〒305-8506<br>
+茨城県つくば市小野川16-2<br>
+Email:<img src="icon/email.png" title="nies_logo" alt="nies_logo" align="center">
+</address>
+  </div>
+  <div id="itemN">
+  </div>
+  <div id="itemO">
+  </div>
+  <div id="itemP">
+  </div>
+</div>
+<div class="footer-inner">
+	<div id="footerNies">
+		<a class="image_link" href="http://www.nies.go.jp/fukushima/" target="_blank"><img src="icon/niesfukushima_logo_JP_1_color.png" width="270" height="65" title="fukushima_logo" alt="fukushima_logo"></a>
+		<a class="image_link" href="http://www.nies.go.jp/biology/" target="_blank"><img src="icon/BioDiv_logo.png" width="270" height="65" title="BioDiv_logo" alt="BioDiv_logo"></a>
+	</div>
+	<div id="footerLink">
+		<a href="sitepolicy.html">とりトレの利用規約</a>
+		<a href="http://www.nies.go.jp/sitepolicy.html" target="_blank">著作権・リンクについて</a>
+		<a href="http://www.nies.go.jp/kojinjoho/privacypolicy.html" target="_blank">プライバシーポリシー</a>
+	</div>
+	<p id="copyright">© 2024 National Institute for Environmental Studies</p>
+</div>
+</body>
+</html>

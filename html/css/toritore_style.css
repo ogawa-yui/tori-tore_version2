@@ -1,0 +1,905 @@
+@charset "UTF-8";
+
+/*                               */
+/*   Style sheet for TORI-TORE   */
+/*                               */
+/*      updated on 2020-08-03    */
+
+
+/* ------------- Overall settings -------------- */
+
+/* Height designation */
+html, body { height: 80%; }
+
+/* Overall color, line spacing, margins, and font */ 
+body {
+ 	font-family: sans-serif; /*Browser font unification*/
+	background: #f0f4f6;
+	margin: 30px 20px 20px 20px; /* Specify the outer margin of body */
+	padding: 10px 10px 50px 10px; /* Specify inner margin of body (top, right, bottom, left) */
+	font-size: 100%;
+	line-height: 1.61;
+}
+/*link*/
+td > a.image_link {
+	display: block;
+	width: auto;
+	height: auto;
+}
+/* Color when the cursor is placed on the link */ 
+a:hover{
+	color: #b7dbf2;
+	text-decoration: underline;
+}
+
+/*Form*/
+form {
+	margin: 1em 0;
+}
+body > form:first-of-type {
+	margin: 0;
+}
+input {
+	white-space: normal;
+}
+
+/*List*/
+ul, dl, ol {
+	padding: 0 0 0 1.5em;
+}
+li {
+	margin: 0 0 10px 0;
+	overflow-wrap: break-word;
+}
+
+/* ------------- Header -------------- */
+.site-header{
+    background: #88cb7f; /*#409887*/
+    position: fixed; /* Header fixed */
+    width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+}
+
+.gnav__menu{
+    display: flex;
+	margin: 5px 0 5px 0;
+	list-style: none;
+}
+
+.gnav__menu__item {
+	list-style-type: none; /* Bullet without points */
+	margin: 0 0 0 30px;
+	color: #fff!important;
+	text-decoration: none; /* No decoration */
+	font-size: 125%;
+}
+/* ------------- Footer -------------- */
+footer{
+	margin-top: 20px;
+	position: fixed; 
+    width: 100%;
+	left: 0;
+}
+
+.footer-inner{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background: #88cb7f;	/*#409887*/
+	color: #fff;
+	text-align: center;
+	margin-top: 20px;
+	padding: 20px;
+}
+#footerNies,
+#footerLink {
+	width: 50%;
+}
+#footerNies {
+	text-align: right;
+	margin: 0;
+	padding: 0 10px 0 0;
+	box-sizing: border-box;
+}
+#footerNies a {
+	display: inline-block;
+	width: 270px;
+	height: 65px;
+}
+#footerNies a:first-of-type {
+	margin: 0 15px 0 0;
+}
+#footerLink {
+	display: flex;
+	align-items: flex-end;
+	text-align: left;
+	padding: 0 0 0 10px;
+	box-sizing: border-box;
+}
+#footerLink a {
+	margin: 0 25px 0 0;
+}
+#copyright {
+	display: block;
+	width: 100%;
+	margin: 20px 0 0 0;
+}
+/* ------------- Title -------------- */
+
+h1 { /* Title of the page */
+	text-align: center;
+	margin: 0;
+	padding: 0 0 10px;
+	font-size: 200%;
+	font-weight: bold;
+}
+h1 span:nth-of-type(1) {
+	margin: 0 0 0 1em;
+}
+h1 span:nth-of-type(2) {
+	display: block;
+}
+ 	
+
+h2 { 
+	margin-top: 20px; /* Leave a space above the title on the left */
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+	
+
+h3  {
+	color:#0000AA;
+	font-weight: bold;
+	font-size: 120%;
+	margin: 0 0 10px 0;
+}
+
+/* -------------- Box -------------- */
+.box2 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #6091d3;/*character color*/
+    background: #FFF;
+    border: solid 3px #6091d3;/*Line*/
+    border-radius: 10px;/* Rounded corners */
+}
+.box2 p {
+    margin: 0; 
+    padding: 0;
+}
+/* -------------- div,p tag -------------- */
+div.answer{ 
+	margin: 10px 0;
+}
+
+div.float-clear{ /*For all options*/
+	overflow: hidden; /* Do not display even if out of the box */
+}	
+p {
+	overflow-wrap: break-word;
+}
+p.sub_title  {
+	font-size:130%;
+	text-align: center;
+}
+
+p.login {
+	text-align: center;
+	margin: 0 0 15px 0;
+}
+#container_vertically_long p {
+	margin: 0 0 15px 0;
+}
+
+/*
+#scroll {
+	height: 500px;
+	overflow-y: scroll;
+}
+*/
+/* Text decoration showing correct or incorrect answers */
+p.correct_or_incorrect {
+	font-size:250%;
+	margin: 10px;
+	font-weight: bold;
+	
+}
+
+p.form { /*Form*/
+	text-align: right;
+	cursor: pointer;
+}
+
+/* Individual font size settings */
+/*p.font50{
+	font-size:50%;
+}*/
+p.font75{
+	display:inline-block; /* Fit the enclosure to the size of the text */
+	font-size:75%;
+	padding: 0.5em 1em;
+    font-weight: bold;
+    background: #FFF;
+    border: solid 3px #CC3333;/*Line*/
+    border-radius: 10px;/* Rounded corners */
+}
+#qtAnswer p.font75,
+#countAccuracy p.font75 {
+	font-size: 100%;
+}
+#qtAnswer p.font75 {
+	margin: 3vw 0 0 0;
+}
+p.font120_center{
+	font-size:120%;
+	text-align: center;
+}
+p.font150{
+	font-size:150%;
+}
+
+fieldset{
+	border:none;
+}
+
+/* Table */
+.A { /*tableA*/
+	border-collapse: collapse;
+}
+.A th, .A td {
+	border: 1px solid #8fbac8;
+	padding: 8px;
+}
+
+/* Image link hover */
+.image_link img:hover{
+	opacity:0.5; /* Transmittance 0.5*/
+}
+
+
+/* ------------- Grid layout -------------- */
+
+/* Whole Frame（Quiz_training）*/
+#container {
+	grid-gap:0 auto;
+	flex-flow: row;
+	max width: 1200px;
+	display: grid; /* Grid layout */
+	/* fr is written when all the margin sizes are used. */
+    grid-template-columns: 1fr 580px 230px 140px 210px 1fr; 
+}
+
+/* What goes into a container */
+#itemA { 
+	grid-row: 1 / 5;
+    grid-column: 2 / 3;
+	/*font-size: 200%;*/
+	padding: 25px;
+	background-color: #fff; 
+}
+
+#itemB {
+	grid-row: 1 / 2;
+    grid-column: 3 / 4;
+	padding: 20px 20px 20px 40px; 
+	background-color: #fff; 
+}
+
+#itemC {
+	grid-row: 1 / 2;
+    grid-column: 4 / 6;
+	padding: 50px 0 20px; 
+	background-color: #fff;
+}
+
+#itemD {
+	grid-row: 2 / 3;
+    grid-column: 3 / 5;
+	padding: 20px 10px;	
+	background-color: #fff;
+	text-align: center;
+}
+
+.vertical {
+	-ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+	margin: 0;
+}
+
+#itemE {
+	grid-row: 2 / 3;
+    grid-column: 5 / 6;
+	padding: 50px 20px 20px;
+	background-color: #fff;
+}
+
+#itemF {
+	grid-row: 3 / 4;
+    grid-column: 3 / 7;
+	padding: 0 10px; 
+	background-color: #fff;
+}
+
+#itemG {
+	grid-row: 4 / 5;
+    grid-column: 3 / 5;
+	padding: 0 20px 20px 20px; 
+	background-color: #fff;
+	/*font-size:150%;*/
+}
+
+#itemH {
+	grid-row: 4 / 5;
+    grid-column: 5 / 6;
+	padding: 0 20px; 
+	background-color: #fff;
+}
+
+#itemI {
+	grid-row: 1 / 5;
+    grid-column: 1 / 2;
+	background-color: #f0f4f6;
+}
+
+#itemJ {
+	grid-row: 1 / 5;
+    grid-column: 6 / 7;
+	background-color: #f0f4f6;
+}
+
+#itemK {
+	text-align: center;
+	grid-row: 1 / 5;
+    grid-column: 2 / 3	;
+	padding: 20px;
+	background-color: #ffffff;
+}
+
+#itemL {
+	text-align: center;
+	grid-row: 1 / 5;
+    grid-column: 3 / 6	;
+	background-color: #ffffff;
+}
+#itemP {
+	grid-row: 6 / 7;
+    grid-column: 2 / 6
+}
+
+
+
+/* Whole Frame（besides Quiz_training）*/
+#container_vertically_long {
+	min-height: 70vh;
+	grid-gap:0 auto;
+	flex-flow: row;
+	display: grid; /*Grid layout*/
+	/* fr is written when all the margin sizes are used. */
+	grid-template-rows: 7.5vw 9.6vw 0.6vw 6.9vw 1fr; 
+    grid-template-columns: 1fr 34.8vw 13.8vw 8.4vw 12.6vw 1fr;
+}
+
+/* Container besides Quiz_training */
+#itemM {
+	grid-row: 1 / 6;
+    grid-column: 2 / 6	;
+	background-color: #ffffff;
+	padding: 25px;
+	border: 1px solid #cccccc;
+}
+
+#itemN {
+	grid-row: 1 / 6;
+    grid-column: 1 / 2;
+	background-color: #f0f4f6;
+}
+
+#itemO {
+	grid-row: 1 / 6;
+    grid-column: 6 / 7;
+	background-color: #f0f4f6;
+}
+
+
+/* ------------- Submit button design -------------- */
+
+/*Small*/
+.btn {
+	display       : inline-block;
+	border: 1px solid #cdcdcd;
+	border-radius : 5px;               /* Rounded corners    */
+	font-size     : 100%;              /* Font size          */
+	text-align    : center;            /* Character position */
+	cursor        : pointer;           /* Cursor             */
+	padding       : 11px 13px 8px 13px;/* Margin             */
+	background    : #cdcdcd;           /* Background color   */
+	color         : #000000;           /* Font color         */
+	opacity       : 1;                 /* Transmittance      */
+	transition    : .3s;               /* Smooth change      */
+	max-width: 100%;
+}
+
+.btn:hover{
+	opacity     : 0.8;           /* Transmittance when hovering */
+}
+
+/* Small_header */
+.gnav__menu .btn {
+	font-size: 80%;
+	padding: 4px 8px;
+}
+
+/*Medium*/
+.btn_med {
+	display       : inline-block;
+	border: 1px solid #cdcdcd;
+	border-radius : 10px;        /* Rounded corners    */
+	font-size     : 14pt;        /* Font size          */
+	text-align    : center;      /* Character position */
+	cursor        : pointer;     /* Cursor             */
+	padding       : 4px 8px;     /* Margin             */
+	background    : #cdcdcd;     /* Background color   */
+	color         : #000000;     /* Font color         */
+	line-height   : 1em;         /* Height per line    */
+	opacity       : 1;           /* Transmittance      */
+	transition    : .3s;         /* Smooth change      */
+}
+
+.btn_med :hover{
+	opacity     : 0.8;           /* Transmittance when hovering */
+}
+
+#itemG .btn_med {
+	padding: 12px 12px;
+}
+
+/* Medium rather than large */
+.next_med {
+	display       : inline-block;
+	border: 1px solid #cdcdcd;
+	border-radius : 10px;        /* Rounded corners    */
+	font-size     : 20pt;        /* Font size          */
+	text-align    : center;      /* Character position */
+	cursor        : pointer;     /* Cursor             */
+	padding       : 12px 12px;   /* Margin             */
+	background    : #cdcdcd;     /* Background color   */
+	color         : #000000;     /* Font color         */
+	line-height   : 1em;         /* Height per line    */
+	opacity       : 1;           /* Transmittance      */
+	transition    : .3s;         /* Smooth change      */
+}
+
+.next_med:hover{
+	opacity     : 0.8;           /* Transmittance when hovering */
+}
+
+/*For menu medium rather than large*/
+.next_medMenu {
+	font-size: 109%!important;
+}
+
+/* Large */
+.next {
+	display       : inline-block;
+	border: 1px solid #409887;
+	border-radius : 10px;        /* Rounded corners    */
+	font-size     : 125%;        /* Font size          */
+	text-align    : center;      /* Character position */
+	cursor        : pointer;     /* Cursor             */
+	padding       : 12px 12px;   /* Margin             */
+	background    : #409887;     /* Background color   */
+	color         : #ffffff;     /* Font color         */
+	line-height   : 1em;         /* Height per line    */
+	opacity       : 0.8;         /* Transmittance      */
+	transition    : .3s;         /* Smooth chang       */
+}
+
+.next:hover{
+	opacity     : 1;           /* Transmittance when hovering */
+}
+
+/*For menu large*/
+.nextMenu {
+	font-size: 130%!important;
+}
+
+
+/* -------------  Choice button of bird species  -------------- */
+.choices input[type="radio"] { /* Design of the radio button itself */
+	height : 50px;
+	vertical-align: top;         /* Alignment position */
+	display       : none;        /* Check box hidden   */
+}
+
+ /* Label just after the checkbox */
+.choices input[type="radio"] + label {
+	display: block;                             /* Elementing the block level  */
+	width         : 100%;
+	height: 100%;
+	line-height   : 150%;                               /* Line spacing within buttons */
+	margin        : 0 0 10px 0;                         /* Distance between buttons */
+	padding       : 0 10px;                             /* Margin for label */
+	font-size     : 20pt;                               /* Font size for label */
+	font-weight   : bold;                               /* Font Weight */
+	border        : 2px solid rgba(64, 152, 135, 0.61); /* Grid line for label */
+	border-radius : 5px;                                /* Rounded corners for label */
+	background    : #ffffff;                            /* Background for label */
+	cursor        : pointer;                            /* Cursor settings */
+	transition    : .2s;                                /* Smooth change */
+}
+
+
+ /* Label immediately after the selected checkbox */
+.choices input[type="radio"]:checked + label {
+	background    : rgba(64, 152, 135, 0.61);                    /* Background for label */
+}
+ /* Hover for label immediately after unselected checkbox */
+.choices input[type="radio"]:not(:checked) + label:hover {
+	background    : rgba(64, 152, 135, 0.40);     /* Background for label */
+}
+
+
+/* ------------- When all bird species are options -------------- */
+
+.choices2 {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.choices2 li{
+	margin-right: 1em;
+	border        : 2px solid rgba(64, 152, 135, 0.61); /* Line for label */
+	border-radius : 5px;                        /* Rounded corners for label */
+}
+
+.choices2 input[type="radio"] { /* Design of the radio button itself */
+	height : 50px;
+	vertical-align: top;         /* Alignment position */
+	display       : none;        /* Check box hidden */
+}
+ /* チェックボックス直後のlabel */
+.choices2 input[type="radio"] + label {
+	height        : 100%;
+	line-height   : 200%;                       /* Line spacing within buttons */
+	margin        : 0;                          /* Distance between buttons */
+	padding       : 0 10px;                     /* Margin for label */
+	font-size     : 20pt;                       //* Font size for label */
+	font-weight   : bold;                       /* Font Weight   */
+	background    : #ffffff;                    /* Background for lebel */
+	cursor        : pointer;                    /* Cursor settings */
+	transition    : .2s;                        /* Smooth change */
+	overflow-wrap: break-word;
+}
+
+
+ /* Label immediately after the selected checkbox */
+.choices2 input[type="radio"]:checked + label {
+  background    : rgba(64, 152, 135, 0.61);                    /* Background for label */
+}
+ /* Hover for label immediately after unselected checkbox */
+.choices2 input[type="radio"]:not(:checked) + label:hover {
+  background    : rgba(64, 152, 135, 0.40);     /* Background for label */
+}
+
+
+/* ------------- audiojs player -------------- */
+
+.audiojs audio {
+}
+/*Player（Playback Bar）*/
+.audiojs {
+width: 60px;
+height: 60px;
+margin: 0;
+background: none;
+overflow: hidden;
+font-family: monospace;
+font-size: 12px;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+-o-box-shadow: none;
+box-shadow: none;
+}
+/*Play and stop buttons*/
+.audiojs .play-pause {
+width: 60px;
+height: 60px;
+padding: 0;
+margin: 0;
+float: left;
+overflow: hidden;
+border: 0px solid #BDBDBD;
+/*border-radius: 15px;*/
+}
+/* p element for play/stop buttons */
+.audiojs p {
+display: none;
+width: 60px;
+height: 60px;
+margin: 0px;
+cursor: pointer;
+}
+.audiojs .play {
+display: block;
+}
+
+/* The part of the bar that displays the progress status (slightly darker blue than the playback button) */
+.audiojs .progress {
+position: absolute;
+top: 0px;
+left: 0px;
+height: 4px;
+width: 0px;
+background: #698D9C;
+z-index: 1;
+/* background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ccc),
+color-stop(0.5, #ddd), color-stop(0.51, #ccc), color-stop(1, #ccc));
+background-image: -moz-linear-gradient(center top, #ccc 0%, #ddd 50%, #ccc 51%, #ccc
+100%); */
+}
+/* Bar section displaying loading status (light gray) */
+.audiojs .loaded {
+position: absolute;
+top: 0px;
+left: 0px;
+height: 4px;
+width: 0px;
+background: #CCC;
+/* background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #222),
+color-stop(0.5, #333), color-stop(0.51, #222), color-stop(1, #222));
+background-image: -moz-linear-gradient(center top, #222 0%, #333 50%, #222 51%, #222
+100%); */
+}
+/* Current playback time/total playback time and font */
+.audiojs .time {
+float: left;
+height: 30px;
+line-height: 30px;
+margin: 0px 0px 0px 8px;
+padding: 0px 0px 0px 0px;
+border-left: none;
+color: #666;
+text-shadow: none;
+display: none;
+}
+/* Current playback time and font */
+.audiojs .time em {
+padding: 0px 2px 0px 0px;
+color: #666;
+font-style: normal;
+display: none;
+}
+
+.audiojs .time strong {
+padding: 0px 0px 0px 2px;
+font-weight: normal;
+display: none;
+}
+.audiojs .error-message {
+float: left;
+display: none;
+margin: 0px 10px;
+height: 28px;
+width: 200px;
+overflow: hidden;
+line-height: 28px;
+white-space: nowrap;
+color: #fff;
+text-overflow: ellipsis;
+-o-text-overflow: ellipsis;
+-icab-text-overflow: ellipsis;
+-khtml-text-overflow: ellipsis;
+-moz-text-overflow: ellipsis;
+-webkit-text-overflow: ellipsis;
+}
+.audiojs .error-message a {
+color: #eee;
+text-decoration: none;
+padding-bottom: 1px;
+border-bottom: 1px solid #999;
+white-space: wrap;
+}
+
+.audiojs .play {
+background: url(btn_play.png) center center no-repeat;
+margin-left: 1.45px;
+}
+.audiojs .play:hover {
+opacity: 0.8;
+}
+
+.audiojs .loading {
+display: none;
+}
+
+.audiojs .error {
+
+display: none;
+}
+
+.audiojs .pause {
+background: url(btn_pause_hover.png) center center no-repeat;
+}
+.audiojs .pause:hover {
+opacity: 0.8;
+}
+.playing .play, .playing .loading, .playing .error {
+display: none;
+}
+.playing .pause {
+display: block;
+}
+.loading .play, .loading .pause, .loading .error {
+display: none;
+}
+.loading .loading {
+display: block;
+}
+.error .time, .error .play, .error .pause, .error .scrubber, .error .loading {
+display: none;
+}
+.error .error {
+display: block;
+}
+.error .play-pause p {
+cursor: auto;
+}
+.error .error-message {
+display: block;
+}
+
+.track-details {
+clear: both;
+height: 28px;
+width: 200px;
+padding: 0px 6px;
+background: #FFF;
+color: #3A3A3A;
+font-size: 10px;
+line-height: 28px;
+}
+.track-details:before {
+content: '♬ Now Playing: ';
+}
+
+
+a.no_decoration:hover{
+text-decoration: none;
+color: black;
+}
+
+.accordion-area{
+	list-style: none;
+	width: 100%;
+	max-width: 900px;
+	margin:20px auto;
+	padding: 0;
+}
+.accordion-area li{
+	margin: 10px 0;
+}
+.accordion-area section {
+	border: 1px solid #ccc;
+}
+.accordion-area .title {
+	background: url("../icon/arrow_up.png") 98% 50%/15px auto no-repeat #f0f4f6;
+	cursor: pointer;
+	font-size:1rem;
+	font-weight: normal;
+	margin: 0;
+	padding: 2% 50px 1.5% 2%;
+	transition: all .5s ease;
+	text-align: left;
+}
+.accordion-area .title.close {
+	background: url("../icon/arrow_down.png") 98% 50%/15px auto no-repeat #f0f4f6;
+}
+.accordion-area .box {
+	display: none;
+	margin:3%;
+	padding: 1%;
+}
+/* top */
+#topImg {
+	margin: 0 0 20px 0;
+}
+/* guide */
+#container_vertically_long .guide {
+	margin: 0 0 20px 0;
+}
+/* login */
+#container_vertically_long .loginText {
+	margin: 0 0 30px 0;
+}
+#container_vertically_long .login .next {
+	margin: 0 0 0 10px;
+}
+#container_vertically_long .login {
+	text-align: left;
+}
+#container_vertically_long .login input {
+	margin: 0 0 0 15px;
+	padding: 5px;
+	box-sizing: border-box;
+}
+#container_vertically_long .loginBtn {
+	display: block;
+	margin: 0;
+}
+/* user regist */
+#container_vertically_long .userRegist p {
+	margin: 0 0 5px 0;
+}
+#container_vertically_long .userRegist input {
+	margin: 0 0 25px 0!important;
+}
+#container_vertically_long .userRegist .btn {
+	min-width: 150px;
+	margin: 15px 0 25px 0!important;
+	padding: 10px 5px;
+}
+
+.btn-play {
+	display: block;
+	width: 60px;
+	height: 60px;
+	margin: 10px 0;
+	padding: 0;
+	border: none;
+	cursor: pointer;
+}
+.btn-play .fas {
+	display: block;
+	width: 60px;
+	height: 60px;
+}
+.btn-play .fa-play {
+	background: url("../img/btn/btn_play.png") 0 0 no-repeat;
+	transition: .3s;
+}
+.btn-play .fa-play:hover {
+	opacity: 0.8;
+}
+.btn-play .fa-pause {
+	background: url("../img/btn/btn_pause_hover.png") 0 0 no-repeat;
+}
+/*itemA*/
+#itemA table td {
+	font-size: 140%;
+	padding: 0 10px 0 0;
+}
+/*itemD*/
+#itemD p {
+	display: block;
+	text-align: center;
+}
+#itemDInner {
+	display: flex;
+}
+#itemDInner img {
+}
+#itemDInner p.vertical {
+}
+/*spectrogram*/
+#itemM .flexImg {
+	display: flex;
+}
+#itemM #soundImg {
+	margin: 20px 0;
+}
+#itemM #soundImg p {
+	clear: both;
+}
+#itemM #soundImg p.btmText {
+	width: 700px;
+	padding: 0 0 0 1.5rem;
+	text-align: center;
+	box-sizing: border-box;
+}
